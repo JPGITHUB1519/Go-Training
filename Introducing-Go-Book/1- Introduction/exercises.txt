@@ -1,0 +1,27 @@
+1. What is whitespace?
+    NewLines, spaces and tabs
+
+2. What is a comment? What are the two ways of writing a comment?
+
+    A comment is a block of code that we wanna the compiler ignore it!
+
+    The two ways of comments are : 
+    Inline Comment
+        // Hey i am a comment
+    Block Comment
+        /*
+            Multiline Comment
+            hey
+        */
+
+3. Our program began with package main. What would the files in the fmt package
+begin with?
+
+    package fmt
+
+4. We used the Println function defined in the fmt package. If you wanted to use
+the Exit function from the os package, what would you need to do?
+
+    os.Exit()
+
+5- Program
