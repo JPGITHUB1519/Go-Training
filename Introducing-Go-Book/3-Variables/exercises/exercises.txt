@@ -1,0 +1,25 @@
+1. What are two ways to create a new variable?
+
+    var <variable_name> <type>
+    var <variable_name> <type> = <value>
+    <variable_name> := <value>
+
+2. What is the value of x after running x := 5; x += 1?
+
+    6
+
+3. What is scope? How do you determine the scope of a variable in Go?
+
+    Is the range of places where we are are allowed to use X variable
+    Go is lexically scoped using blocks, this means that the variable exits within the nearest curly braces or block including
+    any teste curly braces but not outside of them
+
+4. What is the difference between var and const?
+
+    Var is for declare variables
+    const is for declare Constants
+
+5. Using the example program as a starting point, write a program that converts
+from Fahrenheit into Celsius (C = (F − 32) * 5/9).
+
+
