@@ -1,0 +1,49 @@
+1. sum is a function that takes a slice of numbers and adds them together. What would its function signature look like in Go?
+
+    input : slice of numbers [] int
+    return : integer(sum of numbers)
+
+2. Write a function that takes an integer and halves it and returns true if it was even or false if it was odd. For example, half(1) should return (0, false) and half(2) should return (1, true).
+
+    Done -> 2.halves.Go
+
+3. Write a function with one variadic parameter that finds the greatest number in a list of numbers.
+
+    Done -> 3-greatest.go
+
+4. Using makeEvenGenerator as an example, write a makeOddGenerator function that generates odd numbers.
+
+    Done > 4-makeOddGenerator
+
+6. What are defer, panic, and recover? How do you recover from a runtime panic?
+
+    defer -> Call the function on the end of the container function
+    panic -> stop the execution of a program
+    recover -> stops the panic and returns the value that was passed to the call to the panuc
+
+    How do you recover from a runtime panic?
+        We have to pair recover with a defer function 
+
+
+7. How do you get the memory address of a variable?
+    &<variable_name>
+
+
+8. How do you assign a value to a pointer?
+    *<pointer> = <value>
+
+9. How do you create a new pointer?
+
+    <pointer_name>  := new <type>
+
+10. What is the value of x after running this program:
+
+    func square(x *float64) { 
+        *x=*x**x
+    }
+    func main() {
+        x:=1.5
+        square(&x) 
+    }
+
+
